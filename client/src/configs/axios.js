@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let baseURL = 'http://localhost:8080/api';
+let baseURL = 'https://timetable-schedular-server.vercel.app/api';
 
  const axiosInstance  = axios.create({
   baseURL,

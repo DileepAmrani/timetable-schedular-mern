@@ -22,7 +22,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://timetable-schedular.vercel.app"],
     methods: ["POST", "GET", "DELETE"],
     credentials: true,
   })
